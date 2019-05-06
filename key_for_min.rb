@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
     lowest= []
-    for name_hash.each do |key, value |
+     name_hash.each do |key, value |
         puts "#{key} is #{value}"
       #something to compare and return the lowest value
     end
