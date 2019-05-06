@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       end
     
     end
-      
+
      return lowest_key
 
     #returns the name_hash[key]
