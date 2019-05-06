@@ -11,7 +11,9 @@ def key_for_min_value(name_hash)
       #  puts "#{key} is #{value}"
       #something to compare and return the lowest value
     end
+
     lowest.sort
+    binding.pry
     return lowest[-n]
     #returns the name_hash[key]
 end
