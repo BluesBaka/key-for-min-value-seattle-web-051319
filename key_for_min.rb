@@ -8,10 +8,11 @@ def key_for_min_value(name_hash)
 
       if value < lowest_value || lowest_value == nil
         lowest_key << key
+        return lowest_value
       end
 
     end
-      return lowest_value
+      
      return lowest_key
 
     #returns the name_hash[key]
